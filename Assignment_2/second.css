@@ -1,0 +1,42 @@
+.container{
+    max-width: 1450px;
+    width: 94vw;
+    height: 94vh;
+    margin: 0 auto;
+    position: relative;
+    border: 10px solid black;
+}
+
+.vert, .rouge, .bleu{
+    position: absolute;
+}
+
+.vert{
+    width: 60vw;
+    height: 60vh;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    margin: auto;
+    background-color: rgb(6, 230, 36);
+    z-index: 3;
+}
+
+.rouge{
+    width: 60vw;
+    height: 60vh;
+    top: 0;
+    left: 0;
+    background-color: red;
+    z-index: 1;
+}
+
+.bleu{
+    width: 60vw;
+    height: 60vh;
+    bottom: 0;
+    right: 0;
+    background-color: blue;
+    z-index: 2;
+}
